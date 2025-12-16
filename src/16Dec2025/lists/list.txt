@@ -1,0 +1,34 @@
+List    - is data type which contains multiple value 
+        - mutable (value can be changed)
+        - Member of List will be accessed by index
+        - Member of list will be updated by index
+        - Members can be any kind of data (int,float,None,boolean,string)
+        - List is bundle of int,float,None,boolean and String
+        - List is indentified by PVM by [] symbol
+        - List is created by list() constructor
+        - Index start from '0'
+        - Python supports both way indexing (L -> R & R->L)
+        - Index is always absolute
+        - List contains other list as well 
+        - List contains other object like - tuple, disctionary,set etc
+
+List's functions
+        - append(value) - add member at the end 
+        - insert(index,value) - add member at given index
+        - extend() - extending one list to another
+        - copy() - copy member from one list to another
+        - remove(value) - remove member from the list
+        - len() - show the lenght of list
+        - sum() - summation of int,float member
+        - del  - delete the list
+        - count(value) - no of occurence of the member 
+
+
+
+C++, Java, C#
+First Step - Variables / store only value at time
+Array is also a variable - it stores multiple data, but data will homogenous 
+                         - limited of the size (less data space will be utilized)  
+    
+
+
