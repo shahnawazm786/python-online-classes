@@ -1,0 +1,10 @@
+name=['raj','ahmad','rahman','yasin','arabi','makki','madani']
+print(name[0:2])
+print(name[1:5])
+print(name[0::2])
+print(name[0::3])
+print(name[::-1])
+print(name[-1:-8:-2])
+new_name=['sagar','dilwar']
+name.extend(new_name)
+print(name)
