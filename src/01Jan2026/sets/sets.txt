@@ -1,0 +1,9 @@
+In Python, a set is an unordered collection of unique elements, meaning it automatically removes duplicates. Sets are mutable (you can add or remove items) but the elements themselves must be immutable (e.g., numbers, strings, or tuples, but not lists or dictionaries). 
+Basic Operations
+Add items - sets.add('abc')
+Remove items safe - sets.discard("abc") - no error if not found
+Remove items (with error) - sets.remove('abc') - KeyError - if not found
+Check membership "abc" in sets 
+Length - len(sets)
+
+Mathematical set Operations
