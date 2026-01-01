@@ -1,0 +1,9 @@
+Tuple - () 
+construnctor - tuple()
+Tuple - immutable (created tuple value can't be changed)
+Tuple - tuple can have list
+Tuple - element of Tuple is accessed by index 
+Tuple - negative and positive index 
+Tuple - supports slicing 
+
+
