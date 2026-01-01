@@ -7,3 +7,28 @@ Check membership "abc" in sets
 Length - len(sets)
 
 Mathematical set Operations
+
+Example 
+----
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+# Union (all elements in both sets)
+print("Union:", A | B)
+print("Union method:", A.union(B))
+# Output: Union: {1, 2, 3, 4, 5, 6}
+
+# Intersection (common elements)
+print("Intersection:", A & B)
+print("Intersection method:", A.intersection(B))
+# Output: Intersection: {3, 4}
+
+# Difference (elements in A but not in B)
+print("Difference:", A - B)
+print("Difference method:", A.difference(B))
+# Output: Difference: {1, 2}
+
+# Symmetric Difference (elements in A or B, but not both)
+print("Symmetric Difference:", A ^ B)
+print("Symmetric Difference method:", A.symmetric_difference(B))
+# Output: Symmetric Difference: {1, 2, 5, 6}
