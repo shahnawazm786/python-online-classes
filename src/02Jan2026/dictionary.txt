@@ -1,0 +1,42 @@
+Dictionary in python
+symbolic representation - {}
+constructor - dict()
+# Key and value 
+representation of data 
+Age - 40
+Key - {Age} and Value - {40}
+Key - unique 
+Key - null
+Key - decimal value (immutable data) - string,number and tuples
+-------
+value - immutable and mutable [string, number, tuple and list] 
+value -none 
+dictionary can contains another dictionary
+
+A Python dictionary (or dict) is a built-in, mutable data structure that stores data in key-value pairs. It's used for efficient data retrieval, with each unique, immutable key mapping to a specific value.
+Key Characteristics
+Key-Value Pairs: Data is stored as key: value pairs.
+Mutable: Dictionaries can be changed after creation (add, remove, or modify items).
+Ordered: As of Python 3.7+, dictionaries maintain the insertion order of their items.
+Unique, Immutable Keys: Keys must be unique and of an immutable type (e.g., strings, numbers, or tuples). Values can be of any data type.
+Efficient: They are implemented as hash tables, allowing for very fast lookups and insertions. 
+
+Create	Create a dictionary using curly braces {} or the dict() constructor.	person = {"name": "Alice", "age": 30}
+
+Operation 	Description	Example Code	Source
+Create	Create a dictionary using curly braces {} or the dict() constructor.	person = {"name": "Alice", "age": 30}	
+Access	Access a value using its key inside square brackets [] or the .get() method.	print(person["name"])
+print(person.get("email", "N/A"))
+
+Add/Update	Add a new pair or change an existing value using assignment.	person["email"] = "alice@example.com"
+person["age"] = 31
+
+Remove	Remove a key-value pair using the del statement or the .pop() method.	del person["role"]
+person.pop("age")
+
+Iterate	Loop through keys, values, or items using a for loop.	for key in person.keys(): print(key)
+for value in person.values(): print(value)
+for key, value in person.items(): print(key, value)
+
+Merge	Combine two dictionaries using the .update() method or the `	` operator (Python 3.9+).	dict1.update(dict2)
+`merged = dict1
