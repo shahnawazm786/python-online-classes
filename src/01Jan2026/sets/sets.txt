@@ -1,3 +1,5 @@
+{} - This is symbol of set 
+Empty set - use set() constructor
 In Python, a set is an unordered collection of unique elements, meaning it automatically removes duplicates. Sets are mutable (you can add or remove items) but the elements themselves must be immutable (e.g., numbers, strings, or tuples, but not lists or dictionaries). 
 Basic Operations
 Add items - sets.add('abc')
