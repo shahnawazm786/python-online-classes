@@ -1,0 +1,25 @@
+book_name={
+            "serial_no":1,
+            "NameOfBook":'Python',
+            "WriterName":'James',
+            "Price":800,
+            "No_of_page":110
+           } #symbpl
+List_of_book=[
+        {
+            "serial_no":1,
+            "NameOfBook":'Python',
+            "WriterName":'James',
+            "Price":800,
+            "No_of_page":110
+           },
+           {
+            "serial_no":2,
+            "NameOfBook":'Oracle',
+            "WriterName":'Miller',
+            "Price":650,
+            "No_of_page":110
+           }
+    ]
+print(book_name)
+print(List_of_book)
