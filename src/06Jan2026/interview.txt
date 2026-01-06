@@ -1,0 +1,22 @@
+Q1. Write a program to count the word from the string
+
+Str="""
+Python is high level language
+Python is easy language
+Python is used for Machine Language
+"""
+Python - 3
+is - 3
+high -1
+level -1
+language -2
+easy -1
+used -1
+for -1
+Machine  -1 
+Language -1
+
+Q2. show only duplicate word or repeated word
+Q3. Filter out all the vowels and count 
+Q4. Find out the words in string and also the count
+ 
