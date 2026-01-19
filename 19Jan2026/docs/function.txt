@@ -1,0 +1,56 @@
+
+Definitions of function
+* A funciton which has set of instruction wrapped with a name and calls when ever required.
+
+Usage of function
+
+* Reusability (Write once and use many)calls
+* Maintainability (Easy to maintain)
+
+Types of function
+
+
+--> Definitions
+--> Call the set of program
+
+--> String captialize 
+
+--==================
+Banking application
+-=================== 
+Interest calculate
+    -> Seving
+    --> Current
+    --> Loan 
+       --> Home
+       --> Car
+       --> Education
+    --> Credit card 
+
+--> 
+Amount
+Rate of Interest
+Time/Duration/Periods
+Total=Amount * Rate * Duration / 100
+Return Total
+
+---
+How to define function in python
+
+def -> keyword python (To define a functioin)
+function_name - meaningful name
+() -> paranthesis (empty of have parameter)
+:
+indentation
+Body of function
+return value
+
+def function_name():
+    boyd of the function
+    return value
+
+function_name()
+
+# Parameters
+# (variable inside paranthesis)
+# (variable1, variable2, variable3.....)
