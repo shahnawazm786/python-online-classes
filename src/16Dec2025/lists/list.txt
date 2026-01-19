@@ -24,6 +24,16 @@ List's functions
         - count(value) - no of occurence of the member 
 
 
+                        🚨Key Points🚨
+                        
+📌 Modifies in-place: The original list is directly changed, not a new one created.
+
+📌 Single element only: insert() can only add one element at a time. To add multiple elements from an iterable, use the extend() method or list concatenation.
+
+📌 Index behavior: If the specified index is larger than the list's length, the element is simply added to the end (like append()). If the index is a negative number that exceeds the list's length, the element is inserted at the beginning.
+
+📌 Performance: Inserting elements into the beginning or middle of a large list can be slow (O(n) time complexity) because all subsequent elements must be shifted. Appending to the end is generally faster (O(1) amortized time complexity). For performance-critical applications involving frequent insertions at both ends, consider using the collections.deque object. 
+
 
 C++, Java, C#
 First Step - Variables / store only value at time

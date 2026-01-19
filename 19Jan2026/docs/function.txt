@@ -50,6 +50,18 @@ def function_name():
 
 function_name()
 
-# Parameters
+* Parameters
 # (variable inside paranthesis)
 # (variable1, variable2, variable3.....)
+
+* Default parameter
+# Default parameter must be the last parameter
+
+* Return the value
+# The main characteristics of the function is to return a value when calls
+# if you want to return a value on call, used return keyword with value
+
+# function cab be called in another function when you are using return keyword 
+
+# function can return more than value as well
+
