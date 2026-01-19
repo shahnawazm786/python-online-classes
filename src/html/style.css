@@ -5,3 +5,78 @@
 .kaz-a {
   color: #000000; /* Black */
 }
+/* KAZ Brand Colors */
+.kaz-k,
+.kaz-z {
+  color: #e60000; /* Red */
+}
+
+.kaz-a {
+  color: #000000; /* Black */
+}
+
+/* Optional: hover effect */
+.kaz-brand:hover .kaz-k,
+.kaz-brand:hover .kaz-z {
+  color: #ff3b3b;
+}
+
+.kaz-brand:hover .kaz-a {
+  color: #222;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: tomato;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ff2d2d;
+}
+.nav-tomato {
+  transition: color 0.3s ease;
+}
+/* Off-white navbar background */
+.navbar-offwhite {
+  background-color: #f8f9fa; /* off-white */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* Navbar brand text */
+.navbar-offwhite .navbar-brand {
+  color: #000;
+}
+
+/* Tomato color menu links */
+.navbar-offwhite .nav-link {
+  color: tomato;
+  font-weight: 500;
+}
+
+/* Hover & active */
+.navbar-offwhite .nav-link:hover,
+.navbar-offwhite .nav-link.active {
+  color: #ff2d2d;
+  text-decoration: underline;
+} /* Navbar background same as logo (pure white) */
+.navbar-logo-bg {
+  background-color: #ffffff; /* exact logo background */
+  border-bottom: 1px solid #eee;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+/* KAZ brand alignment */
+.navbar-logo-bg .navbar-brand img {
+  background-color: #ffffff;
+}
+
+/* Menu links – tomato color */
+.navbar-logo-bg .nav-link {
+  color: tomato;
+  font-weight: 500;
+}
+
+/* Hover & active */
+.navbar-logo-bg .nav-link:hover,
+.navbar-logo-bg .nav-link.active {
+  color: #ff2d2d;
+  border-bottom: 2px solid tomato;
+}
