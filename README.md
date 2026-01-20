@@ -2,9 +2,9 @@
 
 # 🚀 We are learning python in depth from Beginner to Pro
 
-## ➕ Basic python
+## ➕ Introduction 
 
-## ➕ Variable in python
+## ➕ Variable 
 
 ## ➕ Mutable and Immutable variable
 
