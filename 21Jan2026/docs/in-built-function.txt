@@ -1,12 +1,14 @@
-In Built Function
+In Built Function (Already there into the package of python)
 ----
-len()
-max()
+len() - List & Tuple & Set & String & Dictionary 
+max() - List 
 min()
-sort()
-range()
-str()
--- String function --
+sort() - List & Tuple 
+range() - 
+str() - convert 
+
+-- String function -- applied on string only
+
 count()	Returns the number of times a specified value occurs in a string
 endswith()	Returns true if the string ends with the specified value
 find()	Searches the string for a specified value and returns the position of where it was found
