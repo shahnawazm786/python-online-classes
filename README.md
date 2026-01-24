@@ -20,6 +20,8 @@
 
 <img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/bbabdbad-a603-4afa-af05-5249ebcc9e11" />
 
+<img width="1232" height="736" alt="image" src="https://github.com/user-attachments/assets/8e33733b-f14e-42b7-b0dd-57c03f15ad41" />
+
 
 ## KAZ - CLASSES
 
