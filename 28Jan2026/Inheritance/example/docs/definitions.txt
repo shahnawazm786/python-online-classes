@@ -1,3 +1,42 @@
+Basics of Python Inheritance
+Inheritance is one of the foundational pillars of object-oriented programming (OOP) that allows one class (called the child class) to derive attributes and methods from another class (called the parent class). This feature is central to code reuse and simplifies maintenance, making it easier to build scalable and efficient programs.
+
+
+Parent class
+Let’s start with the parent class. A parent class is the base class from which child classes derive. It encapsulates shared attributes and methods. 
+
+
+Child class 
+A child class inherits attributes and methods from the parent class. This allows it to use the functionality defined in the parent class. 
+
+
+
+Types of Inheritance in Python
+Inheritance in Python allows classes to inherit attributes and behaviors from other classes, promoting code reuse and clean design, as we talked about earlier. In this section, we can talk about the different types of Python inheritance, which includes single, multiple, hierarchical, and hybrid inheritance as separate categories.
+
+Single inheritance
+Single inheritance occurs when a child class inherits from a single parent class, allowing it to extend the functionality of the parent. This is useful when an object type shares common properties with a broader category but also requires additional attributes or behavior. 
+
+The example I started to work through earlier was single inheritance, but let's now look a bit more closely: In a school management system, all individuals, including students, teachers, and staff, share some common details like name and ID. However, students also have academic records such as grades and enrolled courses. Using single inheritance, we can create a Person class for shared attributes and extend it with a Student class for academic details.
+
+Benefits of Inheritance in Python
+Now, it's time to see the strengths and weaknesses: 
+
+Benefits of inheritance
+Reusability: With inheritance you can write code once in the parent class and reuse it in the child classes. Using the example, both FullTimeEmployee and Contractor can inherit a get_details() method from the Employee parent class.
+
+Simplicity: Inheritance models relationships clearly. A good example is the FullTimeEmployee class which “is-a” type of the Employee parent class.
+
+Scalability: It also add new features or child classes without affecting existing code. For example, we can easily add a new Intern class as a child class.
+
+Potential limitations of inheritance
+Complexity: This won't be surprising, but too many levels of inheritance can make the code hard to follow. For example, if an Employee has too many child classes like Manager, Engineer, Intern, etc., it may become confusing.
+
+Dependency: Changes to a parent class can unintentionally affect all subclasses. If you modify Employee for example, it might break FullTimeEmployee or Contractor.
+
+Misuse: Using inheritance when it is not the best fit can complicate designs. You would not want to create a solution where Car inherits from Boat just to reuse move(). The relationship doesn’t make sense.
+
+
 Inheritance
 ---
 Parent / Super class
