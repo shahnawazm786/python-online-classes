@@ -12,9 +12,9 @@ class Person:
     
 class Student(Person):
 
-    def __init__(self, fname, lname,standard):
-        super().__init__(fname, lname)
-        self.standard=standard
+    def __init__(self, fname, lname,standard): # define method
+        super().__init__(fname, lname) # super() method 
+        self.standard=standard # child class 
 
     def get_info(self):
         print(f'First name = {self.fname} Last name = {self.lname} and Studied in {self.standard}')
