@@ -12,6 +12,7 @@ class Student:
         print('Marks',self._marks)
         print('Grade',self.__grade)
 
+    
 s=Student(1,'Abdullah','A',655)
 print('Calling the public method where private variable is called')
 s.get_info() #public method 
