@@ -1,0 +1,6 @@
+This is my bio-data
+I am software engineer
+I open the file in append mode
+very good....
+I open the file in append mode
+very good....
